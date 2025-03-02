@@ -11,7 +11,7 @@ GO
 --Usando a data base criada	
 USE MEUCHEFRECEITAS;
 
--- Criação da tabela Paciente
+-- Criação da tabela
 IF NOT EXISTS( SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'ProdutoCardapio')
 
 BEGIN
